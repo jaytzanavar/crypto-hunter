@@ -14,8 +14,8 @@ const App = () => {
   return (
     // <div
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Homepage />} exact />
           <Route path="/coins/:id" element={<Coins />} />
